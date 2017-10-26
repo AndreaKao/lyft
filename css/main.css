@@ -1,3 +1,669 @@
 /*
  * Estilos de tu proyecto
  */
+
+ /* Código aplicado al body */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ /* Código de la primera sección */
+
+ /* Imágen de fondo*/
+  .arriba {
+ 	position: fixed;
+ 	background: linear-gradient(rgba(46, 28, 68, 0.6), transparent);
+ 	height: 130px;
+ 	width: 1329px;
+ 	z-index: 100; 
+ }
+
+ .fondo img {
+ 	height: 700px;
+ 	width: 100%;
+ 	margin: 0;
+ 	padding: 0;
+ 	position: absolute;
+}
+
+/* Logo de Lift*/
+ .logo img {
+	padding: 40px;
+	padding-left: 100px;
+	height: 50px;
+	position: absolute;
+ }
+
+/* Lista de nav */
+.opciones {
+	margin-left: 1000px;
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	display: inline;
+}
+
+.opciones ul {
+	list-style: none;
+	position: absolute;
+	margin-left: 790px;
+}
+
+.opciones li {
+	color: white;
+	list-style: none;
+	margin: 5px;
+	padding: 15px;
+	float:left;
+}
+
+/* Boton de ingreso */
+.boton button {
+	color: #fff;
+	background: #260E3B;
+	font-size: 20px;
+	line-height: 50px;
+	height: auto;
+	width: 130px;
+	border-radius: 15px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 20px;
+	position: absolute;
+}
+
+/* Segundo div de la primera sección */
+.turn {
+	background: #fff;
+	width: 550px;
+	height: 425px;
+	position: absolute;
+	margin-left: 820px;
+	margin-top: 100px;
+}
+
+/* Cuadro blanco */
+.haches {
+	padding: 65px;
+}
+
+.turn h1 {
+	font-size: 40px;
+	color: #352384;
+	text-transform: uppercase;
+}
+
+.turn h2 {
+	font-size: 15px;
+	color: #352384;
+	text-transform: uppercase;
+	line-height: 30px;
+}
+
+.turn h3 {
+	font-size: 15px;
+	color: #B2BABB;
+	line-height: 30px;
+	padding-top: 20px;
+}
+
+.turn h4 {
+	font-size: 15px;
+	color: #fff;
+	line-height: 30px;
+	padding-top: 20px;
+}
+
+.boton2 button {
+	color: #fff;
+	background: #FF00BF;
+	font-size: 15px;
+	height: auto;
+	width: 170px;
+	padding: 15px;
+	border-radius: 10px;
+	vertical-align: center;
+	position: absolute;
+}
+
+.haches2 h5 {
+	font-size: 17px;
+	color: #9E9E9E;
+	float: right;
+	padding-top: 17px;
+	padding-right: 105px;
+}
+
+.haches h6 {
+	font-size: 10px;
+	color: #B2BABB;
+	line-height: 20px;
+	padding-top: 80px;
+	border-right: 30px;
+	position: absolute;
+}
+
+/* Segunda sección */
+/* Fondo de la segunda sección */
+ .fondo2 {
+ 	background: linear-gradient(#72268D, #2B1E66);
+ 	height: 660px;
+ 	width: 100%;
+ 	margin: 0;
+ 	padding: 0;
+ 	display: block;
+ 	padding-top: 500px;
+}
+
+/* Imágen del celular */
+.celular img {
+	position: absolute;
+	padding-top: 100px;
+	padding-left: 700px;
+	width: 500px;
+	height: auto;
+}
+
+/* Lista de las características del celular */
+.caracteristicas ul {
+	color: #fff;
+	padding-left: 160px;
+	list-style: none;
+	padding-top: 100px;
+	position: absolute;
+}
+
+.caracteristicas li {
+	font-size: 30px;
+	line-height: 90px;
+	text-transform: uppercase;
+ }
+
+ /*??.caracteristicas ul:last child {
+ 	line-height: -1000px;
+ }*/
+
+.caracteristicas h3 {
+	font-size: 30px;
+	line-height: 30px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: 500;
+ }
+
+.caracteristicas p {
+	font-size: 15px;
+	line-height: 20px;
+}
+
+/* Código que permite enlazar los videos */
+.delimitador {
+	width: 900px;
+	margin: auto;
+} 
+
+.contenedor {
+	height: 505px;
+	width: 908px;
+	max-width: 910px; 
+	position: absolute;
+}
+
+iframe {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+#video1 {
+	width: 900px;
+	height: 504px;
+	margin-left: 99px;
+	float: left;
+}
+
+#video2 {
+	width: 900px;
+	height: 504px;
+	margin-right: 450px;
+	float: right;
+	margin-top:-30px;
+}
+
+#video3 {
+	width: 900px;
+	height: 504px;
+	margin-top: -30px; 
+	margin-left: 99px;
+	float: left;
+}
+
+.parte1 {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.frases1 {
+	font-family: 'Montserrat', sans-serif;
+	height: 504px;
+	width: 300px;
+	display: inline-block;
+	line-height: 25px;
+	margin-top: 30px;
+	margin-left: 50px;
+	float: left;
+}
+
+.frases1 h2 {
+	font-size: 10px;
+}
+
+.frases1 h3 {
+	font-size: 30px;
+	padding-bottom: 10px
+}
+
+.frases1 h4 {
+	font-size: 15px;
+}
+
+.frases2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	height: 504px;
+	width: 300px;
+	display: inline-block;
+	line-height: 25px;
+	margin-top: 30px;
+	margin-left: 625px;
+}
+
+.frases2 h2 {
+	font-size: 10px;
+}
+
+.frases2 h3 {
+	font-size: 30px;
+}
+
+.frases2 h4 {
+	font-size: 15px;
+}
+
+.frases3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	height: 504px;
+	width: 300px;
+	display: inline-block;
+	line-height: 25px;
+	margin-top: -5px;
+	margin-left: 50px;
+	float: left;
+}
+
+.frases3 h2 {
+	font-size: 10px;	
+}
+
+.frases3 h3 {
+	font-size: 30px;
+}
+
+.frases3 h4 {
+	font-size: 15px;
+}
+
+.fondo3 {
+	background: #333447;
+	height: 534px;
+	width: 100%;
+	margin-top: 474px;
+	margin-bottom: 0;
+ 	padding-bottom: 0;
+ 	border-bottom: 0;
+ 	position: absolute;
+}
+
+.log ul {
+	color: #fff;
+	line-height: 45px;
+	list-style: none;
+	margin-top: 525px;
+	padding-left: 150px;
+	position: absolute;
+	float: left;
+}
+
+.log li h1 {
+	font-size: 20px;
+	line-height: 45px;
+}
+
+.partners ul {
+	color: #fff;
+	line-height: 45px;
+	list-style: none;
+	margin-top: 525px;
+	padding-left: 400px;
+	position: absolute;
+	float: left;
+}
+
+.partners li h1 {
+	font-size: 20px;
+	line-height: 45px;
+}
+
+.learn ul {
+	color: #fff;
+	line-height: 45px;
+	list-style: none;
+	margin-top: 525px;
+	padding-left: 700px;
+	position: absolute;
+	float: left;
+}
+
+.learn li h1 {
+	font-size: 20px;
+	line-height: 45px;
+}
+
+.click:hover {
+	color: pink;
+}
+
+.imagenes {
+	line-height: 45px;
+	position: absolute;
+	margin-top: 540px;
+	padding-left: 900px;
+}
+
+.uno img, .dos img, .tres img {
+	width: 135px;
+	height: 40px;
+}
+
+.hr {
+	width: 800px;
+	border: 0; 
+	height: 2px; 
+	background-image: linear-gradient(left, #fff, #000, #fff);
+	margin-top: 900px;
+	position: absolute;
+	margin-left: 230px;
+}
+
+.icon-facebook:before {
+  content: "\e900";
+}
+
+.icon-instagram-with-circle:before {
+  content: "\e930";
+}
+
+.icon-social-twitter-circular:before {
+  content: "\e932";
+}
+
+.logo2 {
+	height: 50px;
+	width: 300px;
+	padding-top: 350px;
+	position: relative;
+	margin-left: 200px;
+	z-index: 100; 
+	float:left;
+}
+
+.logo2 span {
+	font-size: 50px;
+	color: #fff;
+	margin-top: 600px;
+	padding: 20px;
+}
+
+
+
+
+/*
+
+.logo2 {
+	height: 44px;
+	width: 44px;
+	position: relative;
+	z-index: 100; 
+}
+
+#uno {
+}
+
+#dos {
+	background-image: url(../assets/images/google-play.png);
+	background-size: 135em 40em;
+	margin-left: 250px;
+	float: left;
+	margin: 15px;
+	position: absolute;
+	padding-bottom: 10px;
+}
+
+#tres {
+	background-image: url(../assets/images/microsoft.png);
+	width: 135px;
+	height: 40px;
+	margin-left: 250px;
+	float: left;
+	margin: 15px;
+	background-size: 135em 40em;
+	position: absolute;
+	padding-bottom: 10px;
+
+}
+
+/*.logos ul li {
+	list-style: none;
+	line-height: 45px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+
+/*
+.google {
+	width: 130px;
+	height: 40px;
+}
+
+.microsoft {
+	width: 130px;
+	height: 40px;
+}
+
+/* *video2
+	padding-top: 1000px;
+	padding-left: 450px;
+
+	video3
+		padding-top: 1010px;
+	padding-left: 450px;
+
+
+
+
+ {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ .fondo img {
+ 	height: 700px;
+ 	width: 1366px;
+ 	margin: 0;
+ 	padding: 0;
+ 	position: absolute;
+}
+
+ .logo img {
+	padding: 40px;
+	padding-left: 100px;
+	height: 50px;
+	position: absolute;
+ }
+
+.opciones {
+	padding-left: 810px;
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+.opciones ul {
+	list-style: none;
+	position: absolute;
+	padding-right: 20px;
+}
+
+.opciones li {
+	color: white;
+	list-style: none;
+	margin: 5px;
+	padding: 15px;
+	float:left;
+}
+
+.boton button {
+	color: #fff;
+	background: #260E3B;
+	font-size: 20px;
+	line-height: 50px;
+	height: auto;
+	width: 130px;
+	border-radius: 15px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 20px;
+	position: absolute;
+}
+
+.turn {
+	background: #fff;
+	width: 550px;
+	height: 425px;
+	position: absolute;
+	margin-left: 820px;
+	margin-top: 100px;
+}
+
+.haches {
+	padding: 65px;
+}
+
+.turn h1 {
+	font-size: 40px;
+	color: #352384;
+	text-transform: uppercase;
+}
+
+.turn h2 {
+	font-size: 15px;
+	color: #352384;
+	text-transform: uppercase;
+	line-height: 30px;
+}
+
+.turn h3 {
+	font-size: 15px;
+	color: #B2BABB;
+	line-height: 30px;
+	padding-top: 20px;
+}
+
+.turn h4 {
+	font-size: 15px;
+	color: #fff;
+	line-height: 30px;
+	padding-top: 20px;
+}
+
+.haches2 h4 button {
+	color: #fff;
+	background: #FF00BF;
+	font-size: 15px;
+	height: auto;
+	width: 170px;
+	padding: 15px;
+	border-radius: 10px;
+	vertical-align: center;
+	position: absolute;
+}
+
+.haches2 h5 {
+	font-size: 17px;
+	color: #9E9E9E;
+	float: right;
+	padding-top: 17px;
+	padding-right: 105px;
+}
+
+.haches h6 {
+	font-size: 10px;
+	color: #B2BABB;
+	line-height: 20px;
+	padding-top: 80px;
+	position: absolute;
+}
+*/
+
+/* 
+.fondo2 {
+ 	background: linear-gradient(#76278F , #2B1E66);
+ 	height: 660px;
+ 	width: 1366px;
+ 	margin: 0;
+ 	padding: 0;
+ 	display: block;
+ 	padding-top: 500px;
+}
+
+.celular img {
+	position: absolute;
+	padding-top: 100px;
+	padding-left: 700px;
+	width: 500px;
+	height: auto;
+}
+
+.caracteristicas ul {
+	color: #fff;
+	padding-left: 160px;
+	list-style: none;
+	padding-top: 100px;
+	position: absolute;
+}
+
+.caracteristicas li {
+	font-size: 30px;
+	line-height: 60px;
+	text-transform: uppercase;
+ }
+
+ /*??.caracteristicas ul:last child {
+ 	line-height: -1000px;
+ }
+
+.caracteristicas p {
+	font-size: 15px;
+	line-height: 20px;
+}
+*/
