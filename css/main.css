@@ -400,6 +400,10 @@ a {
 	color: pink;
 }
 
+.hover li a:hover{
+	color: pink;
+}
+
 .imagenes {
 	line-height: 45px;
 	position: absolute;
